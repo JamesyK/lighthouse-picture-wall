@@ -4,12 +4,25 @@
     float: left;
     /*border: 1px solid gray;*/
     margin: 10px;
-    padding: 6px; }
-    #team-members .member img {
+    padding: 6px;
+    position: relative; }
+    #team-members .member .originalImg img {
       width: 200px;
       height: 200px; }
+    #team-members .member .hoverImg {
+      margin-left: 6px;
+      margin-top: 6px;
+      position: absolute;
+      left: 0;
+      top: 0;
+      display: none; }
+      #team-members .member .hoverImg img {
+        width: 200px;
+        height: 200px; }
     #team-members .member div.name {
       text-align: center; }
+  #team-members .member:hover .hoverImg {
+    display: block; }
 
 body {
   font-family: Verdana;
