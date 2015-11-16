@@ -9,6 +9,8 @@
     .originalImg img {
       width: 200px;
       height: 200px;
+      border-radius: 10px;
+      box-shadow: 10px 10px 5px #888888;
     }
     .hoverImg {
       margin-left: 6px;
@@ -20,6 +22,7 @@
       img {
         width: 200px;
         height: 200px;
+        border-radius: 10px;
       }
     }
     div.name {
